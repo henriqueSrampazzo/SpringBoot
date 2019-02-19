@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: br.com.devdojo.StudentRepositoryTestTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.033 sec <<< FAILURE! - in br.com.devdojo.StudentRepositoryTestTest
+testCreateWhenEmailIsNotValidShouldThrowConstraintViolationException(br.com.devdojo.StudentRepositoryTestTest)  Time elapsed: 0.024 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at br.com.devdojo.StudentRepositoryTest.createWhenEmailIsNotValidShouldThrowConstraintViolationException(StudentRepositoryTest.java:104)
+	at br.com.devdojo.StudentRepositoryTestTest.testCreateWhenEmailIsNotValidShouldThrowConstraintViolationException(StudentRepositoryTestTest.java:119)
+
+testCreateShouldPersistData(br.com.devdojo.StudentRepositoryTestTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at br.com.devdojo.StudentRepositoryTest.createShouldPersistData(StudentRepositoryTest.java:35)
+	at br.com.devdojo.StudentRepositoryTestTest.testCreateShouldPersistData(StudentRepositoryTestTest.java:47)
+
+testCreateWhenEmailIsNullShouldThrowConstraintViolationException(br.com.devdojo.StudentRepositoryTestTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at br.com.devdojo.StudentRepositoryTest.createWhenEmailIsNullShouldThrowConstraintViolationException(StudentRepositoryTest.java:93)
+	at br.com.devdojo.StudentRepositoryTestTest.testCreateWhenEmailIsNullShouldThrowConstraintViolationException(StudentRepositoryTestTest.java:107)
+
+testCreateWhenNameIsNullShouldThrowConstraintViolationException(br.com.devdojo.StudentRepositoryTestTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at br.com.devdojo.StudentRepositoryTest.createWhenNameIsNullShouldThrowConstraintViolationException(StudentRepositoryTest.java:84)
+	at br.com.devdojo.StudentRepositoryTestTest.testCreateWhenNameIsNullShouldThrowConstraintViolationException(StudentRepositoryTestTest.java:95)
+
+testDeleteShouldRemoveData(br.com.devdojo.StudentRepositoryTestTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at br.com.devdojo.StudentRepositoryTest.deleteShouldRemoveData(StudentRepositoryTest.java:45)
+	at br.com.devdojo.StudentRepositoryTestTest.testDeleteShouldRemoveData(StudentRepositoryTestTest.java:59)
+
+testUpdateShouldChangeAndPersistData(br.com.devdojo.StudentRepositoryTestTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at br.com.devdojo.StudentRepositoryTest.updateShouldChangeAndPersistData(StudentRepositoryTest.java:54)
+	at br.com.devdojo.StudentRepositoryTestTest.testUpdateShouldChangeAndPersistData(StudentRepositoryTestTest.java:71)
+
+testFindByNameIgnoreCaseContainingShouldIgnoreCase(br.com.devdojo.StudentRepositoryTestTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at br.com.devdojo.StudentRepositoryTest.findByNameIgnoreCaseContainingShouldIgnoreCase(StudentRepositoryTest.java:69)
+	at br.com.devdojo.StudentRepositoryTestTest.testFindByNameIgnoreCaseContainingShouldIgnoreCase(StudentRepositoryTestTest.java:83)
+

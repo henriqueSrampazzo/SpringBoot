@@ -1,0 +1,23 @@
+package br.com.devdojo.awesome.javaclient;
+
+import br.com.devdojo.awesome.model.Student;
+
+public class JavaSpringClientTest {
+
+    public static void main(String[] args) {
+
+        Student studentPost = new Student();
+        studentPost.setName("henrique");
+        studentPost.setEmail("henrique@gmail.com");
+//        studentPost.setId(29L);
+        JavaClientDAO dao = new JavaClientDAO();
+//        System.out.println(dao.findById(111));
+//        List<Student> students = dao.listAll();
+//        System.out.println(students);
+//        System.out.println(dao.save(studentPost));
+//        dao.update(studentPost);
+        dao.delete(24);
+
+    }
+
+}
